@@ -82,6 +82,29 @@ export default function Home() {
     checkFont();
   }, []);
 
+  useEffect(() => {
+    const elements = document.querySelectorAll('[data-reveal]');
+    if (!elements.length) {
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add(styles.revealVisible);
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
+
+    elements.forEach((element) => observer.observe(element));
+
+    return () => observer.disconnect();
+  }, [styles.revealVisible]);
+
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handlePrev = () => {
@@ -124,16 +147,37 @@ export default function Home() {
       </section>
 
       <section className={styles.aboutSection} id="about">
-        <h1 className={styles.aboutHeading}>About Me</h1>
+        <h1
+          className={`${styles.aboutHeading} ${styles.reveal}`}
+          data-reveal
+          style={{ '--reveal-delay': '0ms' }}
+        >
+          About Me
+        </h1>
 
-        <div className={styles.introduction}>
+        <div
+          className={`${styles.introduction} ${styles.reveal}`}
+          data-reveal
+          style={{ '--reveal-delay': '120ms' }}
+        >
           <p>
             Hello, I’m Nadya Shafwah Yusuf, an Informatics Engineering student at Institut Teknologi Sumatera, where I’ve been honing my skills since 2023. I’m passionate about web development and UI/UX design, and I’m driven by the challenge of creating innovative, user-centered digital solutions. My goal is to blend creativity with functionality, crafting experiences that not only meet user needs but inspire and engage them. With each project, I strive to push boundaries and deliver impactful, high-quality work that makes a difference.
           </p>
         </div>
 
-        <h1 className={styles.skillsHeading} id="skills">What Can I Do</h1>
-        <div className={styles.stackCardsArea}>
+        <h1
+          className={`${styles.skillsHeading} ${styles.reveal}`}
+          id="skills"
+          data-reveal
+          style={{ '--reveal-delay': '200ms' }}
+        >
+          What Can I Do
+        </h1>
+        <div
+          className={`${styles.stackCardsArea} ${styles.reveal}`}
+          data-reveal
+          style={{ '--reveal-delay': '260ms' }}
+        >
           <button
             className={styles.stackArrow}
             type="button"
@@ -180,13 +224,22 @@ export default function Home() {
       </section>
 
       <section className={styles.projectsSection} id="projects">
-        <div className={styles.projectsHeader}>
+        <div
+          className={`${styles.projectsHeader} ${styles.reveal}`}
+          data-reveal
+          style={{ '--reveal-delay': '0ms' }}
+        >
           <h2 className={styles.projectsTitle}>What I've built</h2>
         </div>
 
         <div className={styles.projectList}>
-          {projects.map((project) => (
-            <article className={styles.projectCard} key={project.title}>
+          {projects.map((project, index) => (
+            <article
+              className={`${styles.projectCard} ${styles.reveal}`}
+              key={project.title}
+              data-reveal
+              style={{ '--reveal-delay': `${120 + index * 120}ms` }}
+            >
               <div className={styles.projectMeta}>
                 <h3>{project.title}</h3>
                 <p className={styles.projectRole}>{project.role}</p>
@@ -207,7 +260,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={styles.contactSection} id="contact">
+      <section
+        className={`${styles.contactSection} ${styles.reveal}`}
+        id="contact"
+        data-reveal
+        style={{ '--reveal-delay': '0ms' }}
+      >
         <h2 className={styles.contactHeading}>Get in touch</h2>
         <p className={styles.contactText}>
           Have a project in mind or want to collaborate? Reach out anytime.
