@@ -612,6 +612,8 @@ body, html {
   :root {
     --stack-card-width: min(92vw, 360px);
     --stack-card-height: clamp(220px, 56vw, 320px);
+    --stack-gap-x: clamp(18px, 8vw, 36px);
+    --stack-gap-y: clamp(6px, 2vw, 12px);
   }
 
   .container {
@@ -631,10 +633,21 @@ body, html {
     width: 38px;
     height: 38px;
     font-size: 24px;
+    left: 6px;
+  }
+
+  .stackArrowRight {
+    right: 6px;
   }
 
   .stackCardsContainer {
     height: calc(var(--stack-card-height) + var(--stack-gap-y) * 4 + 60px);
+  }
+
+  .stackCardItem {
+    transform: translate(-50%, -50%)
+      translate(calc(var(--stack-gap-x) * var(--offset)), 0)
+      scale(calc(1 - (var(--offset) * 0.05)));
   }
 
   .stackCardItem {
