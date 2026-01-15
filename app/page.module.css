@@ -610,8 +610,8 @@ body, html {
 
 @media (max-width: 600px) {
   :root {
-    --stack-card-width: min(92vw, 360px);
-    --stack-card-height: clamp(220px, 56vw, 320px);
+    --stack-card-width: min(88vw, 320px);
+    --stack-card-height: clamp(200px, 52vw, 280px);
     --stack-gap-x: clamp(18px, 8vw, 36px);
     --stack-gap-y: clamp(6px, 2vw, 12px);
   }
@@ -634,10 +634,30 @@ body, html {
     height: 38px;
     font-size: 24px;
     left: 6px;
+    display: none;
   }
 
   .stackArrowRight {
     right: 6px;
+    display: none;
+  }
+
+  .stackArrowRight {
+    display: flex;
+  }
+
+  .stackCardsContainer {
+    height: calc(var(--stack-card-height) + 40px);
+  }
+
+  .stackCardItem {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.98);
+  }
+
+  .stackCardItem.stackCardActive {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
   }
 
   .stackCardsContainer {
