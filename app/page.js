@@ -211,6 +211,14 @@ export default function Home() {
             </div>
           </div>
           <button
+            className={styles.stackMobileNext}
+            type="button"
+            aria-label="Next skill"
+            onClick={handleNext}
+          >
+            Next skill
+          </button>
+          <button
             className={`${styles.stackArrow} ${styles.stackArrowRight}`}
             type="button"
             aria-label="Next skill"
