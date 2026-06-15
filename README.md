@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+[# Hi there, I'm Nadya! 👋
 
-## Getting Started
+Saya adalah mahasiswa program studi Teknik Informatika di Institut Teknologi Sumatera. Saya memiliki ketertarikan yang kuat pada *Web Development* dan *UI/UX Design*. Fokus utama saya adalah menciptakan solusi digital yang inovatif, berpusat pada pengguna (*user-centered*), dan memadukan kreativitas dengan fungsionalitas yang optimal.
 
-First, run the development server:
+Selain ngoding, saya juga aktif berperan sebagai Asisten Praktikum untuk mata kuliah Pemrograman Berorientasi Objek (PBO).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🔭 What I'm Currently Doing
+- **Learning:** Memperdalam *Web & Mobile Development* beserta *Software Testing*, serta mempelajari arsitektur data tingkat lanjut (*Data Mining & Big Data Analytics*).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 💻 Tech Stack & Tools
+- **Frontend:** JavaScript, React.js, Next.js, Tailwind CSS, HTML/CSS
+- **Backend:** Python (Pyramid, Flask, Django), PHP, Laravel
+- **Database:** MySQL, PostgreSQL, MongoDB, Firebase
+- **Environment & Deployment:** Manjaro Linux, Git, Vercel, Netlify
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🚀 Featured Projects
+* **[SIGALIH](https://www.sigalih.co.id)** - Platform *web* administrasi desa untuk efisiensi pengajuan surat *online*. (*Backend Developer* - Next.js, Firebase, Google Apps Script)
+* **[Innocent Resources Corp Ltd.](https://www.innocentresouces.com)** - *Website company profile* dinamis yang dilengkapi CMS kustom agar klien mudah mengelola konten blog. (*Full Stack Developer* - Next.js, MongoDB, Vercel Blob)
+* **[Growth2048](https://github.com/nadshafy/Growth-2048-by-Error-Hunters)** - *Mini-game* modifikasi dari 2048 berbasis Python yang menerapkan prinsip OOP dengan visualisasi unik bertema tanaman.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 📫 Let's Connect!
+- **Portfolio:** [nadshafy.vercel.app](https://nadshafy.vercel.app/)
+- **Email:** nadshafy@gmail.com
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*"Driven by the potential of technology to build dynamic, functional websites and applications that enhance user interaction and meet real-world needs."*](https://github.com/nadshafy/BigData-Project-TBC)
