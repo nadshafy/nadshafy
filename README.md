@@ -1,4 +1,4 @@
-[# Hi there, I'm Nadya! 👋
+# Hi there, I'm Nadya! 👋
 
 Saya adalah mahasiswa program studi Teknik Informatika di Institut Teknologi Sumatera. Saya memiliki ketertarikan yang kuat pada *Web Development* dan *UI/UX Design*. Fokus utama saya adalah menciptakan solusi digital yang inovatif, berpusat pada pengguna (*user-centered*), dan memadukan kreativitas dengan fungsionalitas yang optimal.
 
