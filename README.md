@@ -14,6 +14,8 @@ Selain ngoding, saya juga aktif berperan sebagai Asisten Praktikum untuk mata ku
 - **Environment & Deployment:** Manjaro Linux, Git, Vercel, Netlify
 
 ### 🚀 Featured Projects
+* **[NeuroDeck — AI-Powered Adaptive Flashcard Learning](https://github.com/fajrifirdaus/Proyek-Pengembangan-Aplikasi-Mobile)** - Aplikasi Android generasi baru yang menggabungkan algoritma *spaced repetition* SM-2 dengan AI Gemini untuk menghasilkan kartu pembelajaran secara otomatis. Dibangun menggunakan Kotlin.
+* **[TB Risk Prediction — Big Data Pipeline](https://github.com/nadshafy/BigData-Project-TBC)** - *Pipeline Big Data end-to-end* memproses data berskala global (beban penyakit, GDP, kepadatan penduduk) menggunakan **Apache Spark**. Menghasilkan model prediksi *machine learning* dan visualisasi peta risiko interaktif.
 * **[SIGALIH](https://www.sigalih.co.id)** - Platform *web* administrasi desa untuk efisiensi pengajuan surat *online*. (*Backend Developer* - Next.js, Firebase, Google Apps Script)
 * **[Innocent Resources Corp Ltd.](https://www.innocentresouces.com)** - *Website company profile* dinamis yang dilengkapi CMS kustom agar klien mudah mengelola konten blog. (*Full Stack Developer* - Next.js, MongoDB, Vercel Blob)
 * **[Growth2048](https://github.com/nadshafy/Growth-2048-by-Error-Hunters)** - *Mini-game* modifikasi dari 2048 berbasis Python yang menerapkan prinsip OOP dengan visualisasi unik bertema tanaman.
@@ -23,4 +25,4 @@ Selain ngoding, saya juga aktif berperan sebagai Asisten Praktikum untuk mata ku
 - **Email:** nadshafy@gmail.com
 
 ---
-*"Driven by the potential of technology to build dynamic, functional websites and applications that enhance user interaction and meet real-world needs."*](https://github.com/nadshafy/BigData-Project-TBC)
+*"Driven by the potential of technology to build dynamic, functional websites and applications that enhance user interaction and meet real-world needs."
