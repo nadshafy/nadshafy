@@ -61,7 +61,7 @@ export default function Home() {
       technologies: ['Next.js', 'MongoDB', 'Vercel Blob'],
       description:
         "Built a dynamic company profile website with a custom CMS, allowing the client to easily upload and manage blog content. The platform was designed to be scalable and user-friendly, enhancing the company's online presence.",
-      link: 'https://www.innocentresouces.com',
+      link: 'https://www.innocentresources.com',
     },
     {
       title: 'Growth2048: A Python-Based Mini Game',
